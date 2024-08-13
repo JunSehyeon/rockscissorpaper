@@ -1,6 +1,8 @@
 .box{
-  border:1px solid black;
+  border:5px solid black;
   width: 500px;
+  padding: 20px; 
+  margin: 10px;
 }
 
 .item-img{
@@ -11,4 +13,16 @@
   display: flex;
   justify-content: center;
 
+}
+
+.win {
+  border-color: green; 
+}
+
+.lose {
+  border-color: red; 
+}
+
+.tie {
+  border-color: black; 
 }
